@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <div class="weather-form">
+            <input type="text" id="locationInput" placeholder="Enter city or location">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="location">Your City</h2>
+            <p id="temperature">Temperature: -- °C</p>
+            <p id="description">Description: --</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind">Wind: -- km/h</p>
+            <div class="forecast">
+                <!-- Example for 5-day forecast placeholders -->
+                <div class="forecast-day">
+                    <div class="forecast-date">Mon</div>
+                    <div class="forecast-icon">🌤️</div>
+                    <div class="forecast-temp">--°C</div>
+                </div>
+                <div class="forecast-day">
+                    <div class="forecast-date">Tue</div>
+                    <div class="forecast-icon">🌦️</div>
+                    <div class="forecast-temp">--°C</div>
+                </div>
+                <div class="forecast-day">
+                    <div class="forecast-date">Wed</div>
+                    <div class="forecast-icon">🌧️</div>
+                    <div class="forecast-temp">--°C</div>
+                </div>
+                <div class="forecast-day">
+                    <div class="forecast-date">Thu</div>
+                    <div class="forecast-icon">☀️</div>
+                    <div class="forecast-temp">--°C</div>
+                </div>
+                <div class="forecast-day">
+                    <div class="forecast-date">Fri</div>
+                    <div class="forecast-icon">🌩️</div>
+                    <div class="forecast-temp">--°C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,207 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #42a5f5, #1976d2 100%);
+    color: #222;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px 30px 30px 30px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 16px;
+    box-shadow: 0 4px 32px 0 rgba(31, 90, 173, 0.15);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.weather-form {
+    margin-bottom: 24px;
+}
+
+.weather-form input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 70%;
+    border: 1px solid #90caf9;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.weather-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.weather-form button:hover {
+    background: #1565c0;
+}
+
+.weather-info {
+    margin-top: 16px;
+}
+
+.weather-info h2 {
+    margin: 12px 0 8px 0;
+    font-weight: 600;
+}
+
+.forecast {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.forecast-day {
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 10px 4px;
+    width: 54px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(66, 165, 245, 0.11);
+}
+
+.forecast-date {
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+.forecast-icon {
+    font-size: 1.6em;
+    margin: 8px 0;
+}
+
+.forecast-temp {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 12px 5px;
+        max-width: 96vw;
+    }
+    .forecast-day {
+        padding: 7px 1px;
+        width: 40px;
+        font-size: 0.9em;
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #42a5f5, #1976d2 100%);
+    color: #222;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px 30px 30px 30px;
+    background: rgba(255, 255, 255, 0.90);
+    border-radius: 16px;
+    box-shadow: 0 4px 32px 0 rgba(31, 90, 173, 0.15);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.weather-form {
+    margin-bottom: 24px;
+}
+
+.weather-form input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 70%;
+    border: 1px solid #90caf9;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.weather-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1976d2;
+    color: #fff;
+    border: 1px solid #1976d2;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.weather-form button:hover {
+    background: #1565c0;
+}
+
+.weather-info {
+    margin-top: 16px;
+}
+
+.weather-info h2 {
+    margin: 12px 0 8px 0;
+    font-weight: 600;
+}
+
+.forecast {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.forecast-day {
+    background: #e3f2fd;
+    border-radius: 8px;
+    padding: 10px 4px;
+    width: 54px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(66, 165, 245, 0.11);
+}
+
+.forecast-date {
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+.forecast-icon {
+    font-size: 1.6em;
+    margin: 8px 0;
+}
+
+.forecast-temp {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 12px 5px;
+        max-width: 96vw;
+    }
+    .forecast-day {
+        padding: 7px 1px;
+        width: 40px;
+        font-size: 0.9em;
+    }
+}
